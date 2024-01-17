@@ -9,8 +9,7 @@ from urllib.parse import urljoin
 
 def main():
 
-    # token = environ.get('token')
-    token = 'L4J19WJ4ATDWKCNT54OMFNVNJO4YWS'
+    token = environ.get('token')
     if not token:
         return 'AnPush: 未配置token，无法进行消息推送。'
 
