@@ -28,5 +28,6 @@ jobs:
       - name: 开始推送
         env:
           token: ${{ secrets.TOKEN }} # token
+          newskey: ${{ secrets.NEWS_KEY }} # token
         run: |
           python main.py
